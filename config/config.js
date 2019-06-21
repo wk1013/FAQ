@@ -98,11 +98,11 @@ export default {
   // 路由配置
   routes: [
     {
-      path: '/user',
+      path: '/',
       component: '../layouts/UserLayout',
       routes:[
         {
-          path:'/user',
+          path:'/',
           name:'登录',
           component:'./user/user.jsx'
         }
